@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/xhofe/115-sdk-go/json_types"
+	"github.com/Sakura-Byte/115-sdk-go/json_types"
 )
 
 type UploadGetTokenResp struct {
