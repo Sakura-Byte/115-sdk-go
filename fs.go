@@ -152,7 +152,7 @@ type GetFolderInfoResp struct {
 	OpenTime     int64  `json:"open_time"`
 	FileCategory string `json:"file_category"`
 	Paths        []struct {
-		FileID   int64  `json:"file_id"`
+		FileID   string `json:"file_id"`
 		FileName string `json:"file_name"`
 	} `json:"paths"`
 }
