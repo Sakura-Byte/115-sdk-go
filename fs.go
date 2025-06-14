@@ -137,7 +137,7 @@ func (c *Client) GetFiles(ctx context.Context, req *GetFilesReq) (*GetFilesResp,
 }
 
 type GetFolderInfoResp struct {
-	Count        string `json:"count"`
+	Count        int64  `json:"count"`
 	Size         string `json:"size"`
 	FolderCount  int64  `json:"folder_count"`
 	PlayLong     int64  `json:"play_long"`
